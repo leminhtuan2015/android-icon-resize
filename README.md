@@ -13,10 +13,11 @@ Generate different dimension of android icons and put it to proper folder.
 Usage
 -----
 
-android_icons_generator.py <raw icon file> <res dir>/<prefix>
-  `raw icon file` is the high resolution icon file.
-  `res dir` is your Android project's res dir.
-  `prefix` can be `drawable` or `mipmap`.
+    android_icons_generator.py <raw icon file> <res dir>/<prefix>
+    
+    `raw icon file` is the high resolution icon file.
+    `res dir` is your Android project's res dir.
+    `prefix` can be `drawable` or `mipmap`.
 
 Examples
 --------
