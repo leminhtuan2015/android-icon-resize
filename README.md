@@ -2,6 +2,17 @@
 
 Generate different dimension of android icons and put it to proper folder.
 
+** Install 
+
+* python / python3
+* pip
+
+```sh
+# Install pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py 
+python3 get-pip.py
+```
+
 **Support dimensions:**
 
     xxxhdpi 192x192
@@ -24,6 +35,9 @@ Examples
 
     android_icons_generator.py ic_launcher.png ~/demoapp/app/src/main/res/mipmap
     android_icons_generator.py ic_person.png ~/demoapp/app/src/main/res/drawable
+    
+    python3 android_icons_generator.py ic_launcher.png ~/demoapp/app/src/main/res/mipmap
+    python3 android_icons_generator.py ic_person.png ~/demoapp/app/src/main/res/drawable
 
 A real example with execution result:
 
